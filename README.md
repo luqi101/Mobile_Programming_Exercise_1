@@ -1,7 +1,9 @@
-# CS2430 Mobile Computing Exercise 1 - Campus Shop
+# CS2430 Mobile Programming Exercise 1 - Campus Shop
+
+**Submitted by:** Luqman
 
 ## Project Overview
-Campus Shop is a native Android mobile shop app built with Kotlin and Jetpack Compose for CS2430 Mobile Computing Exercise 1. The app presents a campus store catalog where users can browse products, filter by category, open product details, add items to a shopping bag, adjust quantities, remove items, and review subtotal, 13% tax, and grand total before checkout.
+Campus Shop is a native Android mobile shop app built with Kotlin and Jetpack Compose for CS2430 Mobile Programming Exercise 1. The app presents a campus store catalog where users can browse products, filter by category, open product details, add items to a shopping bag, adjust quantities, remove items, and review subtotal, 13% tax, and grand total before checkout.
 
 This project uses no Flutter, Firebase, backend, database, login, or payment system. Product data is stored in a simple Kotlin list in `ProductCatalog.kt`, and prices are handled as integer cents to avoid floating-point money errors.
 
@@ -172,28 +174,38 @@ MobileShopApp/
 ## Screenshots
 The screenshots below show the main shopping flow and responsive Material 3 interface. All image paths are relative to the project root.
 
-### Home Screen
-![Home screen product grid](screenshots/Screenshot_20260506_041327.png)
+<div class="screenshot-grid">
+  <figure>
+    <img src="screenshots/Screenshot_20260506_041327.png" alt="Home screen product grid">
+    <figcaption>Home screen product grid</figcaption>
+  </figure>
+  <figure>
+    <img src="screenshots/Screenshot_20260506_041412.png" alt="Apparel category filter">
+    <figcaption>Apparel category filter</figcaption>
+  </figure>
+  <figure>
+    <img src="screenshots/Screenshot_20260506_042713.png" alt="Product detail screen">
+    <figcaption>Product detail screen</figcaption>
+  </figure>
+  <figure>
+    <img src="screenshots/Screenshot_20260506_041421.png" alt="Drinkware category filter">
+    <figcaption>Drinkware category filter</figcaption>
+  </figure>
+  <figure>
+    <img src="screenshots/Screenshot_20260506_041428.png" alt="Accessories category filter">
+    <figcaption>Accessories category filter</figcaption>
+  </figure>
+  <figure>
+    <img src="screenshots/Screenshot_20260506_041457.png" alt="Shopping bag with subtotal, tax, and grand total">
+    <figcaption>Shopping bag with subtotal, tax, and grand total</figcaption>
+  </figure>
+  <figure>
+    <img src="screenshots/Screenshot_20260506_041513.png" alt="Empty shopping bag state">
+    <figcaption>Empty shopping bag state</figcaption>
+  </figure>
+</div>
 
-### Apparel Category Filter
-![Apparel category filter](screenshots/Screenshot_20260506_041412.png)
-
-### Product Detail
-![Product detail](screenshots/Screenshot_20260506_042713.png)
-
-### Drinkware Category Filter
-![Drinkware category filter](screenshots/Screenshot_20260506_041421.png)
-
-### Accessories Category Filter
-![Accessories category filter](screenshots/Screenshot_20260506_041428.png)
-
-### Shopping Bag With Totals
-![Shopping bag with subtotal, tax, and grand total](screenshots/Screenshot_20260506_041457.png)
-
-### Empty Bag
-![Empty shopping bag state](screenshots/Screenshot_20260506_041513.png)
-
-## Testing And Demo Checklist
+## Testing Checklist
 Use this checklist to verify the required user flow:
 1. Launch the app.
 2. Confirm the home screen appears.
@@ -221,8 +233,3 @@ Public GitHub repository URL:
 ```text
 https://github.com/luqi101/Mobile_Programming_Exercise_1.git
 ```
-
-## Submission Notes
-- `README.pdf` is generated from this `README.md`.
-- The final ZIP should include the Android Studio project files, Kotlin source files, local image/vector assets, screenshots, and `README.pdf`.
-- The final ZIP should not include generated build outputs, Gradle caches, `local.properties`, `.DS_Store`, or private IDE workspace files.
