@@ -1,6 +1,6 @@
 # CS2430 Mobile Programming Exercise 1 - Campus Shop
 
-**Submitted by:** Luqman
+Luqman Aadil
 
 ## Project Overview
 Campus Shop is a native Android mobile shop app built with Kotlin and Jetpack Compose for CS2430 Mobile Programming Exercise 1. The app presents a campus store catalog where users can browse products, filter by category, open product details, add items to a shopping bag, adjust quantities, remove items, and review subtotal, 13% tax, and grand total before checkout.
@@ -198,6 +198,10 @@ The screenshots below show the main shopping flow and responsive Material 3 inte
   <figure>
     <img src="screenshots/Screenshot_20260506_041457.png" alt="Shopping bag with subtotal, tax, and grand total">
     <figcaption>Shopping bag with subtotal, tax, and grand total</figcaption>
+  </figure>
+  <figure>
+    <img src="screenshots/Screenshot_20260506_041505.png" alt="Checkout complete dialog">
+    <figcaption>Checkout complete dialog</figcaption>
   </figure>
   <figure>
     <img src="screenshots/Screenshot_20260506_041513.png" alt="Empty shopping bag state">
