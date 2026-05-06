@@ -54,7 +54,6 @@ Generated folders and private local files such as `.gradle/`, `.kotlin/`, `build
 ```text
 MobileShopApp/
 ├── .gitignore
-├── AGENTS.md
 ├── MC_Exercise1_20226NN.pdf
 ├── README.md
 ├── README.pdf

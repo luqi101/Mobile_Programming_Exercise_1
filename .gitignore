@@ -1,4 +1,6 @@
 *.iml
+AGENTS.md
+Agents.md
 .gradle
 .kotlin
 /.idea
